@@ -84,6 +84,13 @@
             <version>1.4.3</version>
             <classifier>mule-plugin</classifier>
         </dependency>
+    	<dependency>
+            <groupId>a310a8d3-0e47-4d06-a66f-6b5e8e2f4cc1</groupId>
+            <artifactId>american-flights-api</artifactId>
+            <version>3.0.4</version>
+            <classifier>raml</classifier>
+            <type>zip</type>
+        </dependency>
     </dependencies>
 
 	<repositories>
