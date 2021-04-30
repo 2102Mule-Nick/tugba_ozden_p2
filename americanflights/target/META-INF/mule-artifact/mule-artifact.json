@@ -1,0 +1,36 @@
+{
+  "configs": [
+    "americanflights.xml",
+    "global.xml",
+    "american-flights-api.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "a310a8d3-0e47-4d06-a66f-6b5e8e2f4cc1:americanflights:1.0.0",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "american-flights-api.xml",
+        "americanflights.xml",
+        "api/american-flights-api.raml",
+        "api/examples/AmericanFlightExample.raml",
+        "api/examples/AmericanFlightNoIDExample.raml",
+        "api/exchange_modules/68ef9520-24e9-4cf2-b2f5-620025690913/training-american-flight-data-type/1.0.1/AmericanFlightDataType.raml",
+        "api/exchange_modules/68ef9520-24e9-4cf2-b2f5-620025690913/training-american-flights-example/1.0.1/AmericanFlightsExample.raml",
+        "application-types.xml",
+        "examples/american-flights-example.json",
+        "examples/flight.csv",
+        "global.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
